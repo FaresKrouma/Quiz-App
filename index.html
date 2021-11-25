@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="home.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="quiz-container">
+        <div class="header-container" id="header-container">
+            <h2 id="questions">questions</h2>
+            <p id="hints">hints</p>
+            <ul id="list">
+                <li>
+                    <input id="a" type="radio" name="answer" class="answer" /><label id="text_a"
+                        for="a">questions</label>
+                </li>
+                <li>
+                    <input id="b" type="radio" name="answer" class="answer" /><label id="text_b"
+                        for="b">questions</label>
+                </li>
+                <li>
+                    <input id="c" type="radio" name="answer" class="answer" /><label id="text_c"
+                        for="c">questions</label>
+                </li>
+                <li>
+                    <input id="d" type="radio" name="answer" class="answer" /><label id="text_d"
+                        for="d">questions</label>
+                </li>
+            </ul>
+        </div>
+        <button id="submit" onclick="setTimeout(submit,50)" class="btn-main">
+            Submit Answer
+        </button>
+    </div>
+</body>
+
+</html>
